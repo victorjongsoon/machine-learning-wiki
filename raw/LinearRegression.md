@@ -1,6 +1,6 @@
 ---
 title: "LinearRegression"
-source: "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html?utm_source=chatgpt.com"
+source: "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html"
 author:
 published:
 created: 2026-05-01

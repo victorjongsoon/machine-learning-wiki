@@ -1,6 +1,6 @@
 ---
 title: "1.11. Ensembles: Gradient boosting, random forests, bagging, voting, stacking"
-source: "https://scikit-learn.org/stable/modules/ensemble.html?utm_source=chatgpt.com"
+source: "https://scikit-learn.org/stable/modules/ensemble.html"
 author:
 published:
 created: 2026-05-01

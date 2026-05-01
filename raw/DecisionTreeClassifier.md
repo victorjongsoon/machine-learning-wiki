@@ -1,6 +1,6 @@
 ---
 title: "DecisionTreeClassifier"
-source: "https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html?utm_source=chatgpt.com"
+source: "https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html"
 author:
 published:
 created: 2026-05-01

@@ -1,6 +1,6 @@
 ---
 title: "2.3. Clustering"
-source: "https://scikit-learn.org/stable/modules/clustering.html?utm_source=chatgpt.com"
+source: "https://scikit-learn.org/stable/modules/clustering.html"
 author:
 published:
 created: 2026-05-01

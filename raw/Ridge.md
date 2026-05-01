@@ -1,6 +1,6 @@
 ---
 title: "Ridge"
-source: "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html?utm_source=chatgpt.com"
+source: "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html"
 author:
 published:
 created: 2026-05-01

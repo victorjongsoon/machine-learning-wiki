@@ -1,6 +1,6 @@
 ---
 title: "1.1. Linear Models"
-source: "https://scikit-learn.org/stable/modules/linear_model.html?utm_source=chatgpt.com"
+source: "https://scikit-learn.org/stable/modules/linear_model.html"
 author:
 published:
 created: 2026-05-01

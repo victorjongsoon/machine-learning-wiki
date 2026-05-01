@@ -1,6 +1,6 @@
 ---
 title: "Decision Trees"
-source: "https://scikit-learn.org/stable/modules/tree.html?utm_source=chatgpt.com"
+source: "https://scikit-learn.org/stable/modules/tree.html"
 author:
 published:
 created: 2026-05-01
