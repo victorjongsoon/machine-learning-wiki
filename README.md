@@ -1,48 +1,43 @@
-# Machine Learning LLM Wiki Example
+# Machine Learning LLM Wiki
 
-An example repository implementing Andrej Karpathy’s LLM Wiki pattern using machine learning notes as the knowledge domain.
-
-The repository separates raw source material from polished wiki pages, with Claude Code maintaining the wiki based on the instructions in `CLAUDE.md`.
+A personal knowledge base built on Andrej Karpathy's LLM Wiki pattern, using machine learning as the knowledge domain. Raw source material is ingested by Claude Code and transformed into a structured, interlinked wiki that compounds over time.
 
 ## Start Here
 
 - [Wiki Index](wiki/index.md)
+- [Update Log](wiki/log.md)
 
-## What This Demonstrates
+## How It Works
 
-- Keeping source material in `raw/`
-- Generating structured Markdown notes in `wiki/`
-- Maintaining a table of contents in `wiki/index.md`
-- Tracking updates in `wiki/log.md`
-- Using `CLAUDE.md` to guide Claude Code
+Instead of querying raw documents every time, Claude Code reads new sources and integrates them into persistent wiki pages — updating summaries, linking concepts, and refining existing content. The wiki grows richer with every source added.
 
 ## Repository Structure
 
-- `raw/` contains source material.
-- `wiki/` contains polished Markdown pages.
-- `wiki/index.md` is the table of contents.
-- `wiki/log.md` records updates.
-- `CLAUDE.md` contains instructions for Claude Code.
+```
+machine-learning-wiki/
+├── raw/          # Immutable source material — never modified
+├── wiki/         # LLM-maintained knowledge base
+│   ├── index.md  # Table of contents
+│   └── log.md    # Chronological update history
+└── CLAUDE.md     # Schema — instructs Claude how to maintain the wiki
+```
 
-## Example Domain
+## Topics Covered
 
-This example uses machine learning topics such as:
-
-- Regression
-- Decision Trees
-- Random Forest
-- Ensemble Methods
-- Clustering
-- Feature Importance
+- Linear Models (OLS, Ridge, Lasso, Elastic-Net, Logistic Regression)
+- Decision Trees (CART, pruning, impurity criteria)
+- Ensemble Methods (Gradient Boosting, Random Forests, Bagging, Stacking)
+- Clustering (K-Means, DBSCAN, HDBSCAN, Hierarchical)
 
 ## Workflow
 
-1. Add source material to `raw/`.
-2. Ask Claude Code to ingest the new material.
-3. Claude Code creates or updates pages in `wiki/`.
-4. `wiki/index.md` and `wiki/log.md` are kept updated.
+1. Clip or save source material into `raw/`
+2. Tell Claude Code to ingest new files
+3. Claude reads, synthesizes, and writes structured pages into `wiki/`
+4. `wiki/index.md` and `wiki/log.md` are updated automatically
 
 ## Inspiration
 
-- Andrej Karpathy’s LLM Wiki idea: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
-- Obsidian: https://obsidian.md/
+- [Andrej Karpathy's LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+- [Obsidian](https://obsidian.md/)
+- [Claude Code](https://claude.ai/code)
